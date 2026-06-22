@@ -22,7 +22,6 @@ export const fetchMovies = async (query: string): Promise<Movie[]> => {
       },
     },
   );
-  console.log(token);
 
   return response.data.results;
 };
